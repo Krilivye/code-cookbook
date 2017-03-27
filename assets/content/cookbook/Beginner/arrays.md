@@ -29,7 +29,7 @@ arrayOfStrings.insert(0, "Hello");
 arrayOfStrings.unshift("Haxe");
 // Appends "World" to the end of the array 
 arrayOfStrings.push("World");
-// Appends "foo", "bar" elements to the end of the array
+// Appends "foo", "bar" elements to the end of a copy of the array
 arrayOfStrings.concat(["foo", "bar"]);
 ```
 
